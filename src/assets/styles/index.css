@@ -1,0 +1,43 @@
+:root {
+  --main-color: #303133;
+  --main-background: #ffffff;
+  --main-border: #e4e7ed;
+
+  --sub-background: #e4e7ed;
+
+  --theme-color: #409eff;
+  --theme-color-light: #66b1ff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: var(--main-color);
+  background: var(--main-background);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--main-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-background);
+  border-radius: 3px;
+}

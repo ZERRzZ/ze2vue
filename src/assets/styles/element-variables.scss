@@ -1,0 +1,91 @@
+// // color
+
+// $--color-primary: #15b0d0;
+
+// $--color-white: #1c1c1c;
+// $--color-black: #ffffff;
+
+// $--color-success: #339933;
+// $--color-warning: #e6a23c;
+// $--color-danger: #c43d15;
+// $--color-info: #898989;
+
+// $--color-text-primary: #ffffff;
+// $--color-text-regular: #ffffff;
+// $--color-text-secondary: #ffffff;
+// $--color-text-placeholder: #909399;
+
+// $--border-color-base: #15b0d0;
+// $--border-color-light: #222222;
+// $--border-color-lighter: #222222;
+// $--border-color-extra-light: #222222;
+
+// // background
+
+// $--background-color-base: #222222;
+
+// // radius
+
+// $--border-radius-base: 16px;
+
+// // extra
+
+// $--button-primary-font-color: $--color-text-primary;
+// $--border-color-hover: $--border-color-base;
+// $--color-info-lighter: $--color-white;
+
+// .el-table.el-table--striped
+//   .el-table__body
+//   tr.el-table__row--striped
+//   td.el-table__cell {
+//   background: $--background-color-base;
+// }
+
+// .el-table.el-table--enable-row-hover
+//   .el-table__body
+//   tr:hover
+//   > td.el-table__cell {
+//   background: mix($--color-white, $--color-primary, 90%);
+// }
+
+// .el-table .el-button--text {
+//   padding: 0;
+// }
+
+// .el-pagination.is-background .el-pager li:not(.disabled).active {
+//   color: $--color-text-primary !important;
+// }
+
+// .el-menu {
+//   border: none !important;
+// }
+
+// .el-submenu > .el-menu {
+//   background: $--background-color-base;
+// }
+
+// .el-submenu__title {
+//   background: $--color-white;
+// }
+
+// .el-textarea__inner {
+//   font-family: inherit;
+// }
+
+// .el-loading-mask,
+// .el-dialog__wrapper,
+// .el-message-box__wrapper {
+//   background: #1c1c1cd0 !important;
+// }
+
+// .el-date-editor .el-range-input {
+//   background: $--color-white;
+// }
+
+// .el-tag .el-tag__close {
+//   color: $--color-danger !important;
+// }
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
